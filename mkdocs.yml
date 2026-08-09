@@ -1,12 +1,12 @@
-site_name: Demo IS1 - Ingeniería de Software I
-site_url: https://262is1.github.io/demo-is1/
+site_name: Demo IS2 - Ingeniería de Software II
+site_url: https://262is2.github.io/demo-is2/
 docs_dir: docs
 
 nav:
   - Inicio: index.md
   - Sílabos:
-      - Sílabo IS1 2026-1: silabo_is1_2026_1.md
-      - Sílabo IS1 2026-2: silabo_is1_2026_2.md
+      - Sílabo IS2 2026-1: silabo_is2_2026_1.md
+      - Sílabo IS2 2026-2: silabo_is2_2026_2.md
 
 theme:
   name: material
