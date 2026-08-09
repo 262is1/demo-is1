@@ -1,122 +1,121 @@
-<!-- Transcripción fiel generada desde el sílabo oficial de Ingeniería de Software II -->
+<!-- Transcripción fiel generada desde: sw1.docx -->
 
 Universidad Peruana Unión  
 Carret. Central km. 19.5 Ñaña. Telf. 01-6186300 Casilla 3564 Lima 1, Perú
 
-# Sílabo: Ingeniería de Software II
+# Sílabo: Ingeniería de Software I
 
 ## I. Información General de Asignatura
 
 | N. | Campo | Información | N. | Campo | Información |
 |---|---|---|---|---|---|
 | 01 | Facultad/EGP | Facultad de Ingeniería y Arquitectura | 09 | Año de plan de estudio | 2023-1 |
-| 02 | Programa de estudio | EP Ingeniería de Sistemas | 10 | Ciclo de estudio | 7 |
+| 02 | Programa de estudio | EP Ingeniería de Sistemas | 10 | Ciclo de estudio | 6 |
 | 03 | Tipo de estudio | General | 11 | Código de asignatura |  |
-| 04 | Nombre de asignatura | Ingeniería de Software II | 12 | Número de créditos | 3 |
+| 04 | Nombre de asignatura | Ingeniería de Software I | 12 | Número de créditos | 3 |
 | 05 | Duración |  | 13 | Nota mínima probatoria | 13 |
 | 06 | Horas de la asignatura | H. Te. Pract: 2 / H. Prc. Pres: 2 | 14 | Año y semestre académico | 2026-1 |
-| 07 | Docente | Roque Sucari Ruben |  |  |  |
-| 08 | Pre requisito | Ingeniería de Software I |  |  |  |
+| 07 | Docente | Mamani Larico Bonnier Nilss |  |  |  |
+| 08 | Pre requisito |  |  |  |  |
 
 ## II. Sumilla
 
-Asignatura es de naturaleza teórico-práctica, pertenece al Área de Estudios Específicos y Especialidad y sub área de Ingeniería de Software, su propósito es evaluar la calidad y madurez de las actividades de ingeniería y administración en proyectos de desarrollo de sistemas de información y la calidad interna y externa del producto software. Comprende: estándares nacionales e internacionales para la calidad del software y modelos de madurez.
+Asignatura es de naturaleza teórico-práctica, pertenece al Área de Estudios Específicos y Especialidad y sub área de Ingeniería de Software, su propósito es aplicar los conocimientos de SWEBOK, SCRUM y OpenUP a un proyecto de desarrollo de software. Los tópicos a tratar son: Cuerpo de Conocimiento de Ingeniería de Software, Framework Scrum y Open Unified Process.
 
 ## III. Competencia del Perfil de Egreso en Relación a la Asignatura
 
 | Tipo | Competencia | Dimensiones |
 |---|---|---|
-| Específica | **INGENIERÍA DE SOFTWARE:** Gestiona y desarrolla software de manera eficiente y efectiva, basándose en estándares internacionales de calidad a fin de lograr el control y aseguramiento de la calidad según el contexto de la organización. | N. 1.1 Ingeniería de requerimientos, ingeniería de la información, programación, calidad de software. |
-| General | **CARÁCTER Y APRENDIZAJE AUTÓNOMO:** Cultiva un carácter íntegro y autónomo, guiado por principios bíblicos y adventistas, integrando un enfoque espiritual con la proactividad en el aprendizaje y el desarrollo personal. | N. 1.1 Firmeza de propósito, ejecución, mantener el esfuerzo. |
+| Específica | **Ingeniería de Software** | N. 1.1 Ingeniería de requerimientos y programación. |
+| General | **Investigación e innovación** | N. 1.1 Redacción del informe y publicación; e innovación y solución de problemas. |
 
 ## IV. Resultado de Aprendizaje de la Asignatura
 
 | Resultado de aprendizaje | Producto académico |
 |---|---|
-| Desarrolla un software basado en estándares de calidad externa e interna de producto, calidad en los procesos de desarrollo y niveles de madurez. | **Nombre:** Desarrolla un producto de software. |
-|  | **Descripción:** El estudiante elabora una auditoría de calidad del software de un proyecto gestionado con el ciclo de vida del desarrollo de software y prácticas ágiles, utilizando métricas de proceso y desarrollo, orientada a la mejora continua. |
+| Implementa proyectos de desarrollo de software basado en el diseño de una arquitectura y prácticas ágiles de Ingeniería de Software relacionados a requerimientos de una organización. Soluciones para problemas complejos de organizaciones para satisfacer necesidades de desarrollo sostenible. | **Nombre:** Software basado en prácticas ágiles de Ingeniería de Software. |
+|  | **Descripción:** El software que implementa el estudiante está guiado por un método o marco de trabajo ágil; para ello define una pila de producto utilizando técnicas de identificación y especificación de requerimientos, identifica las tareas necesarias para dichos requerimientos, utiliza técnicas de estimación para calcular la duración de las iteraciones y técnicas gráficas para evidenciar el avance. Hace uso de ceremonias y roles para el desarrollo del software en el proyecto. Se definen los siguientes entregables: pila de producto, pila de sprint, tarjetas de Definición de Listo, Definición de Hecho, tablero Scrum, reflexiones de Sprint Retrospective, resultados del Sprint Review y release del sprint. |
 
 ## V. Unidades de Aprendizaje
 
-## Unidad 1: Calidad en los Procesos de Desarrollo de Software con NTP ISO/IEC 12207 e ISO/IEC 25010
+## Unidad 1: Fundamentos Ágiles y Arquitectura Ligera en Proyectos de Desarrollo de Software
 
 | Resultado de aprendizaje | Producto |
 |---|---|
-| El estudiante desarrolla software mediante la mejora continua de las actividades del ciclo de vida del desarrollo, aplicando procesos definidos en un método o marco de trabajo, alineados con las buenas prácticas de la norma ISO/IEC 12207 y utilizando métricas de calidad establecidas en la ISO/IEC 25010. | **Nombre:** Informe de aplicación de mejora de procesos de software basado en prácticas de ingeniería de software de las ISO 12207 y ISO 25010 en un proyecto de desarrollo. |
+| Formula un proyecto de desarrollo de software mediante un Project Charter basado en el marco de trabajo Scrum. | **Nombre:** Marco ágil definido mediante un Project Charter basado en prácticas ágiles Scrum. |
 
 | Criterios de evaluación del producto | Descripción del producto |
 |---|---|
-| Comprende los conceptos relacionados a la calidad de software. Comprende la estructura de procesos en el ciclo de vida de la ISO 12207: NTP ISO/IEC 12207, procesos principales, de apoyo y organizativos del ciclo de vida del software y métricas de calidad de la ISO 25010. Incorpora buenas prácticas de los procesos de apoyo y organizativos de la NTP ISO/IEC 12207 y métricas ISO 25010 necesarios en el proceso de desarrollo de software que usan los estudiantes en la realidad de sus proyectos. Incorpora métricas de calidad de software de la NTP ISO/IEC 25010. Modela procesos de apoyo y organizativos del ciclo de vida del software en procesos de su proyecto. Sustenta las buenas prácticas de la ISO 12207 y métricas de la ISO 25010 incorporadas al proceso de desarrollo de software utilizado en su proyecto de semestre. | Elabora un informe analítico detallado de la situación actual en cuanto a la implementación de su proyecto de desarrollo de software basado en la aplicación de procesos y métricas de desarrollo de software basados en la ISO 12207 e ISO 25010. |
+| Coherencia entre la problemática del negocio y los componentes del Project Charter. Trazabilidad del problema con objetivos del proyecto. Dominio del marco de trabajo en relación al proyecto. Dominio en el uso de fuentes primarias y secundarias en el proyecto. | Documento de iniciación de un proyecto. Este producto consiste en: datos identificatorios del lugar del proyecto, objetivos, descripción de la situación problemática que genera el proyecto, descripción del método de trabajo, EDT, equipo de trabajo y riesgos. |
 
 ### Sesiones de aprendizaje
 
 | N. | Fecha | Contenido | HT | HP | Actividad práctica | Actividad autónoma |
 |---|---|---|---:|---:|---|---|
-| 1 | 15/03/2026 - 21/03/2026 | Introducción a la calidad de producto y proceso: ISO 25010 e ISO 12207. | 2 | 2 | Esquematiza la norma ISO 12207. Responde preguntas de calidad de proceso y calidad de producto. | Comprende la estructura externa e interna de la ISO 12207 e ISO 25010 utilizando la IA NotebookLM. |
-| 2 | 22/03/2026 - 28/03/2026 | NTP ISO/IEC 12207: modelamiento de procesos de ingeniería del ciclo de vida del software y métricas de proceso. | 2 | 2 | Dibuja los procesos de la vista contractual del ciclo de vida de la ISO 12207. Identifica métricas de proceso: defectos, lead time y cycle time. | Compara la ISO 12207 con lo que proponen las metodologías de desarrollo de software OpenUP y SCRUM. Incorpora actividades ISO 12207 del ciclo de vida que adopta para su proyecto. Relaciona los principios de la mejora continua con la tesis de Aliaga Cruz Vitmar (2019). |
-| 3 | 29/03/2026 - 04/04/2026 | NTP ISO/IEC 12207: modelamiento de procesos de ingeniería del ciclo de vida del software. Instrumentos de aseguramiento de la calidad. | 2 | 2 | Dibuja los procesos Scrum articulándolos con buenas prácticas de la vista de ingeniería de la ISO 12207. Elabora instrumentos de aseguramiento de calidad: revisiones, inspecciones y checklist. | Refina los procesos mapeados con aspectos de la realidad de su proyecto de semestre. |
-| 4 | 05/04/2026 - 11/04/2026 | NTP ISO/IEC 12207: modelamiento de procesos de ingeniería del ciclo de vida del software. Matriz de calidad. | 2 | 2 | Dibuja los procesos de un método de desarrollo o marco de trabajo articulándolos con buenas prácticas de la vista de ingeniería de la ISO 12207. Elabora matriz de calidad: atributos, métricas y riesgos. | Refina los procesos mapeados con aspectos de la realidad de su proyecto de semestre. |
-| 5 | 12/04/2026 - 18/04/2026 | NTP ISO/IEC 12207: métricas de calidad de procesos en desarrollo de software. NTP ISO/IEC 25010: métricas de calidad de código fuente de software. | 2 | 2 | Formula métricas de calidad para procesos y código fuente en desarrollo de software. Casos presentados en clase. | Formula métricas de calidad para procesos en desarrollo de software para su proyecto de desarrollo de software. |
-| 6 | 19/04/2026 - 25/04/2026 | Evaluación de unidad. | 2 | 2 | Exposición y sustentación de procesos refinados con buenas prácticas de la vista de ingeniería de la ISO 12207. | Subsanación de observaciones. |
+| 1 | 15/03/2026 | Fundamentos ágiles: Agile Manifesto y principios. Comparación de marcos ágiles: Scrum, Kanban, XP. | 2 | 2 | Analizan conceptos y estándares relacionados a la ingeniería de software y modelos de desarrollo de software. | Elabora una revisión de los principales estándares relacionados al software. |
+| 2 | 22/03/2026 | Introducción: roles y ceremonias. | 2 | 2 | Identifica roles y ceremonias de Scrum. | Define los roles y ceremonias de Scrum. |
+| 3 | 29/03/2026 | Scrum. Introducción: artefactos y herramientas. | 2 | 2 | Se explican los artefactos y herramientas de Scrum. | Explica los artefactos y herramientas Scrum que utilizará en su proyecto. |
+| 4 | 05/04/2026 | Principios de arquitecturas ligeras. | 2 | 2 | Revisa casos prácticos de arquitectura de software con criterios de arquitectura ligera. | Aplica criterios de arquitectura ligera a casos propios y pasados del estudiante. |
+| 5 | 12/04/2026 | Define el contexto de negocio y la razón del porqué: problema que origina el proyecto, causas y efectos incorporándolo en el Project Charter ágil. | 2 | 2 | Se guía a los estudiantes en el desarrollo del análisis de la concepción de un proyecto de desarrollo ágil con casos prácticos. | Elabora el Project Charter del proyecto de semestre. |
+| 6 | 19/04/2026 | Exposición y sustentación de Project Charter: roles, artefactos y ceremonias Scrum. | 2 | 2 | Expone y sustenta el Project Charter considerando los roles, artefactos y ceremonias Scrum. | Subsana observaciones. |
 
-## Unidad 2: Madurez y Mejora de Procesos de Desarrollo de Software
+## Unidad 2: Planificación Ágil de Requerimientos con el Marco de Trabajo Scrum
 
 | Resultado de aprendizaje | Producto |
 |---|---|
-| El estudiante desarrolla software a través de la mejora continua de las actividades del ciclo de vida, aplicando procesos definidos en un método o marco de trabajo e incorporando prácticas que fortalecen y promueven la madurez de los procesos de desarrollo de software. | **Nombre:** Informe de aplicación de mejora de procesos de software basado en prácticas de madurez en desarrollo de software en un proyecto. |
+| Elabora el Product y Sprint Backlog de un proyecto de desarrollo de software basado en el Project Charter. | **Nombre:** Pila de producto planificado mediante priorizado mediante prácticas de gestión de requerimientos ágil. |
 
 | Criterios de evaluación del producto | Descripción del producto |
 |---|---|
-| Incorpora buenas prácticas de CMMI necesarias en el proceso de desarrollo de software que usan los estudiantes en la realidad de sus proyectos: CMMI para el desarrollo, estructura y áreas de procesos. Incorpora buenas prácticas de CMMI de soporte, aseguramiento de la calidad, medición y análisis. Implementa los procesos de desarrollo de software mejorados con buenas prácticas de estándares en los proyectos grupales: CMMI, gestión de proyectos. Sustenta las buenas prácticas de CMMI incorporadas al proceso de desarrollo de software utilizado en su proyecto de semestre. | Elabora un informe analítico detallado de la situación de su proyecto de desarrollo de software basado en la aplicación de procesos y métricas de desarrollo de software basados en prácticas de un estándar de madurez. |
+| Relación de épicas e historias de usuario con requerimientos en el contexto del negocio. Especificación de épicas e historias de usuario. Especificación de tareas. Uso de técnicas de estimación para el cálculo del esfuerzo y división de sprints. Definición de criterios de Hecho y Listo. | El entregable de esta unidad consiste en una lista de requerimientos identificados a través de épicas, criterios en tarjetas de Definición de Hecho (DoD) y Definición de Listo (DoR), y tareas por historias de usuario. |
 
 ### Sesiones de aprendizaje
 
 | N. | Fecha | Contenido | HT | HP | Actividad práctica | Actividad autónoma |
 |---|---|---|---:|---:|---|---|
-| 1 | 26/04/2026 - 02/05/2026 | Madurez para el desarrollo de software. Principios Clean Code: legibilidad, estructura y buenas prácticas. | 2 | 2 | Identifica los principios de Clean Code aplicables a su proyecto de software relacionados a madurez de procesos de ingeniería. | Integra el CMMI en su proyecto final de auditoría como marco de referencia. Lee la tesis de Carlomagno Bartra. Elabora un organizador gráfico donde comprende la estructura y procesos de madurez de CMMI y su intervención en el ciclo de vida del desarrollo de software en un proyecto Scrum. |
-| 2 | 03/05/2026 - 09/05/2026 | Madurez para el desarrollo: procesos de ingeniería. | 2 | 2 | Elabora una lista de actividades de las buenas prácticas de ingeniería de CMMI que pueden ser insertadas en los procesos de un proyecto de desarrollo de software. Identifica buenas prácticas de code smells comunes. | Describe cómo la lista de actividades de las buenas prácticas de ingeniería de CMMI podría integrarse en los procesos de un proyecto con Scrum. |
-| 3 | 10/05/2026 - 16/05/2026 | CMMI para el desarrollo: procesos de ingeniería. | 2 | 2 | Integra buenas prácticas de ingeniería de CMMI en los procesos de un proyecto con su método de desarrollo o marco de trabajo. | Refina la integración de buenas prácticas de ingeniería de CMMI en los procesos de un proyecto con Scrum. |
-| 4 | 17/05/2026 - 23/05/2026 | Buenas prácticas de refactorización y su impacto en la calidad. | 2 | 2 | Integra buenas prácticas de ingeniería de CMMI: solución técnica (TS), integración de producto (IP) y verificación (VER), que pueden ser insertadas en los procesos de su método de desarrollo o marco de trabajo. | Refina la integración de buenas prácticas de ingeniería de CMMI: solución técnica (TS), integración de producto (IP) y verificación (VER), en los procesos de un proyecto con Scrum. |
-| 5 | 24/05/2026 - 30/05/2026 | Prácticas de madurez para el manejo de deuda técnica. | 2 | 2 | Integra buenas prácticas de ingeniería de CMMI que ayuden a medir indicadores de deuda técnica en los procesos de un proyecto con su método de desarrollo o marco de trabajo. | Refina la integración de buenas prácticas de ingeniería de CMMI que ayuden a medir indicadores de deuda técnica en los procesos de un proyecto con Scrum. |
-| 6 | 31/05/2026 - 06/06/2026 | Evaluación de unidad II. | 2 | 2 | Exposición del segundo avance de proyecto integrador. | Corrige su proyecto en base a las observaciones realizadas en clase. |
+| 1 | 26/04/2026 | Épicas. Historias de usuario. | 2 | 2 | Aplicación de casos para la elicitación de requerimientos. | Elicita requerimientos de proyecto de ciclo. |
+| 2 | 03/05/2026 | Épicas. Historias de usuario. | 2 | 2 | Aplicación de casos para la elicitación de requerimientos. | Elicitación de los requerimientos de proyecto de ciclo. |
+| 3 | 10/05/2026 | Evaluación de la unidad: pila de producto, pila de Sprint, MoSCoW, WSJF, valor vs esfuerzo, Definición de Hecho y Listo. | 2 | 2 | Examen: expone y sustenta la gestión de requerimientos con Scrum utilizando sus artefactos y ceremonias. | Subsana observaciones de su proyecto. |
+| 4 | 17/05/2026 | Técnicas de estimación, definición de sprints e identificación de tareas. | 2 | 2 | Sesión guiada por casos para la definición de iteraciones. | Utiliza técnicas de estimación para dividir su proyecto en sprints donde colocará las tareas de sus historias de usuario. |
+| 5 | 24/05/2026 | Evaluación del producto de la Unidad 2. | 2 | 2 | Expone y sustenta la planificación ágil de su proyecto de desarrollo de software. | Subsana observaciones. |
 
-## Unidad 3: Auditoría en Proyectos de Desarrollo de Software
+## Unidad 3: Gestión Ágil de Sprints con Scrum
 
 | Resultado de aprendizaje | Producto |
 |---|---|
-| El estudiante aplica métodos de auditoría de procesos de desarrollo de software en los procesos de un método de desarrollo o marco de trabajo ágil aplicado en su proyecto de semestre. | **Nombre:** Informe de auditoría de procesos de desarrollo de software aplicados en un proyecto de semestre. |
+| Ejecuta iteraciones basado en prácticas ágiles para el proyecto de desarrollo de software. | **Nombre:** Informe de ejecución de Sprint acompañado de software y documentación de arquitectura elaborados en los sprints ejecutados. |
 
 | Criterios de evaluación del producto | Descripción del producto |
 |---|---|
-| Elabora Project Charter de auditoría: plan de preparación. Ejecuta el Project Charter de auditoría: evaluación y resultados. Sustenta el informe final de auditoría del proyecto de semestre. Examen final. | El estudiante elabora un informe de auditoría para su proyecto semestral de desarrollo de software, aplicando métodos y técnicas de auditoría pertinentes, con el propósito de identificar hallazgos y proponer una ruta estructurada de mejora. |
+| Software implementado en base a Sprint Backlog. Explicación del Sprint Retrospective del proyecto de semestre. Explicación del Sprint Review del proyecto de semestre. Manejo de herramientas en la ejecución de sprints. Manejo de indicadores de sprints. | El entregable de esta unidad considera: informe de ejecución de las iteraciones, acompañadas del detalle del Sprint Retrospective, el Sprint Review y los productos de software implementados. También se considera la entrega actualizada y subsanada de las unidades anteriores. |
 
 ### Sesiones de aprendizaje
 
 | N. | Fecha | Contenido | HT | HP | Actividad práctica | Actividad autónoma |
 |---|---|---|---:|---:|---|---|
-| 1 | 07/06/2026 - 13/06/2026 | Métodos de auditoría para proyectos de desarrollo de software: plan de preparación. | 2 | 2 | Elabora un plan de auditoría de su proyecto de desarrollo de software. | Amplía su comprensión de los métodos de auditoría de procesos de desarrollo de software utilizando la IA NotebookLM. |
-| 2 | 14/06/2026 - 20/06/2026 | Ejecución de la auditoría: hallazgos, análisis de impacto y riesgos. | 2 | 2 | Aplica instrumentos de auditoría de procesos de desarrollo de software. | Sistematiza los resultados de la auditoría practicada a un proyecto de desarrollo de software. |
-| 3 | 21/06/2026 - 27/06/2026 | Evaluación de resultados de la auditoría. | 2 | 2 | Evalúa los resultados relacionados a evidencias de producto software. | Elabora el informe de la auditoría de procesos de desarrollo de software. |
-| 4 | 28/06/2026 - 04/07/2026 | Evaluación final: sustentación del informe de auditoría. | 2 | 2 | Sustenta el informe de auditoría de su proyecto de semestre. | Evaluación de proyectos. |
+| 1 | 31/05/2026 | Preparación de sprint. | 2 | 2 | Los estudiantes socializan el Sprint Backlog para agendar un conjunto de tareas de preparación para iniciar el sprint. | Ejecuta el Sprint Backlog basado en Project Charter. Ejecuta las tareas de preparación del sprint y mueve tarjetas por los estados de su tablero. |
+| 2 | 07/06/2026 | Ejecución de sprints: monitoreo de Daily Meeting, tablero Scrum, bitácora de trabajo y registro de incidencias. | 2 | 2 | Revisión de ejecución de actividades y progreso de artefactos de trabajo de las iteraciones de los proyectos grupales. | Ejecuta el Sprint Backlog basado en Project Charter. Configura su proyecto en Jira; asimismo, mueve tarjetas por los estados de su tablero. |
+| 3 | 14/06/2026 | Ejecución de sprints: monitoreo de Daily Meeting, tablero Scrum, bitácora de trabajo y registro de incidencias. | 2 | 2 | Revisión de ejecución de actividades y progreso de artefactos de trabajo de las iteraciones de los proyectos grupales. | Elabora las retrospectivas ágiles: Review y Retrospective de su proyecto de semestre. |
+| 4 | 21/06/2026 | Ejecución de sprints: monitoreo de Daily Meeting, tablero Scrum, bitácora de trabajo y registro de incidencias. | 2 | 2 | Revisión de ejecución de actividades y progreso de artefactos de trabajo de las iteraciones de los proyectos grupales. | Repasa temas tratados durante el semestre para su mejora. |
+| 5 | 28/06/2026 | Examen final: sustentación de desarrollo de sprints versus releases, Sprint Retrospective y Sprint Review. | 2 | 2 | Examen: expone y sustenta el desarrollo de Sprint basado en entregables de la Unidad 1 y 2. | Revisión de observaciones. |
 
 ## VI. Estrategias Metodológicas
 
 | N. | Estrategias de enseñanza y de aprendizaje que se aplicarán en la asignatura |
 |---|---|
 | 1.1 | Aprendizaje Cooperativo: fomenta habilidades colaborativas y de trabajo en equipo, cruciales en la mayoría de los entornos laborales modernos. |
-| 1.2 | Webquest: desarrolla habilidades de investigación digital, crítica y análisis de información, que son esenciales en la era de la información. |
-| 1.3 | Aprendizaje Basado en Problemas: centra el aprendizaje en la resolución de problemas reales, una habilidad esencial en casi todas las profesiones. Estimula el pensamiento crítico y la colaboración, elementos clave en el desarrollo de competencias. |
-| 1.4 | Estudios de caso: desarrolla el pensamiento crítico y la toma de decisiones al analizar situaciones complejas, preparando a los estudiantes para enfrentar problemas similares en sus futuras carreras profesionales. |
-| 1.5 | Proyectos: fomentan habilidades de investigación, gestión del tiempo y trabajo en equipo, todas cruciales en el mundo profesional. |
+| 1.2 | Aprendizaje Basado en Problemas: centra el aprendizaje en la resolución de problemas reales, una habilidad esencial en casi todas las profesiones. Estimula el pensamiento crítico y la colaboración, elementos clave en el desarrollo de competencias. |
+| 1.3 | Proyectos: fomentan habilidades de investigación, gestión del tiempo y trabajo en equipo, todas cruciales en el mundo profesional. |
 
 ## VII. Recursos, Medios y Materiales
 
 | N. | Recursos medios y materiales |
 |---|---|
 | 1 | Guías y/o tutoriales |
-| 2 | Laboratorios |
-| 3 | Internet - Wifi |
-| 4 | Proyector y/o TV Smart |
+| 2 | PC de escritorio con programas de ofimática |
+| 3 | Laboratorios |
+| 4 | Internet - Wifi |
+| 5 | Proyector y/o TV Smart |
 
 ## VIII. Evaluación
 
@@ -132,13 +131,13 @@ La evaluación de los estudiantes se rige por el Reglamento de Estudios, disponi
 
 | Fecha | Unidad | Producto | Evaluación de proceso y de resultado | Pesos |
 |---|---|---|---|---:|
-| 23/04/2026 | Unidad 1: Calidad en los procesos de desarrollo de software con NTP ISO/IEC 12207 e ISO/IEC 25010 | Informe de aplicación de mejora de procesos de software basado en prácticas de ingeniería de software de las ISO 12207 y ISO 25010 en un proyecto de desarrollo. | Evaluación de sesiones | 5% |
-|  |  |  | Evaluación del producto | 20% |
-| 04/06/2026 | Unidad 2: Madurez y mejora de procesos de desarrollo de software | Informe de aplicación de mejora de procesos de software basado en prácticas de madurez en desarrollo de software en un proyecto. | Evaluación de sesiones | 5% |
-|  |  |  | Evaluación del producto | 20% |
-| 02/07/2026 | Unidad 3: Auditoría en proyectos de desarrollo de software | Informe de auditoría de procesos de desarrollo de software aplicados en un proyecto de semestre. | Evaluación de sesiones | 10% |
+| 19/04/2026 | Unidad 1: Fundamentos ágiles y arquitectura ligera en proyectos de desarrollo de software | Marco ágil definido mediante un Project Charter basado en prácticas ágiles Scrum. | Evaluación del producto | 20% |
+|  |  |  | Evaluación de sesiones | 5% |
+| 24/05/2026 | Unidad 2: Planificación ágil de requerimientos con el marco de trabajo Scrum | Pila de producto planificado mediante priorizado mediante prácticas de gestión de requerimientos ágil. | Evaluación del producto | 20% |
+|  |  |  | Evaluación de sesiones | 5% |
+| 28/06/2026 | Unidad 3: Gestión ágil de sprints con Scrum | Informe de ejecución de Sprint acompañado de software y documentación de arquitectura elaborados en los sprints ejecutados. | Evaluación de sesiones | 10% |
 |  |  |  | Evaluación del producto | 30% |
-| 02/07/2026 | Competencia General | Carácter y aprendizaje autónomo: cultiva un carácter íntegro y autónomo, guiado por principios bíblicos y adventistas, integrando un enfoque espiritual con la proactividad en el aprendizaje y el desarrollo personal. | Competencia General | 10% |
+| 28/06/2026 | Competencia General | Investigación e innovación. | Competencia General | 10% |
 
 | Promedio ponderado de las evaluaciones | Pesos |
 |---|---:|
@@ -151,26 +150,30 @@ La evaluación de los estudiantes se rige por el Reglamento de Estudios, disponi
 
 ### Básica (Fuentes primarias)
 
-- ONGEI. Norma Técnica Peruana. Tecnología de la Información, Código de buenas prácticas para la gestión de la seguridad de la información. 2007.
-- Carlomagno, K. (2013). *Mejora del proceso de tutorías de la Universidad Peruana Unión por medio del módulo de tutoría adaptado al modelo de capacidad optimización de CMMI integrado por la metodología ágil OpenUP*.
-- ONGEI. Norma Técnica Peruana. Tecnología de la Información, Procesos del Ciclo de Vida del Software. 2004.
-- IEEE. *Software Engineering Body of Knowledge*. Edición 2004.
-- Bravo Crisostomo, Julissa. (2008). *Módulo de gestión por procesos para la Facultad de Ingeniería y Arquitectura*. Tesis de pregrado, Universidad Peruana Unión, Lima, Perú.
-- Addison Wesley. *CMMI Distilled*. 2003.
-- Carnegie Mellon Software Engineering Institute. *CMMI Distilled*. Second Edition. 2003.
+- Machacuay, M. (2021). *SCRUM y KANBAN para la implementación de un Sistema de Información Transaccional en la mejora del monitoreo del proceso de Investigación Formativa en la Facultad de Ingeniería y Arquitectura de la Universidad Peruana Unión*. Tesis de pregrado UPeU, Lima.
+- Bartra Ramirez, Kevin Carlomagno. (2013). *Mejora del proceso de tutorías de la Universidad Peruana Unión por medio del módulo de tutoría adaptado al modelo de capacidad optimización de CMMI integrado por la metodología ágil OpenUP*. Tesis de pregrado, Universidad Peruana Unión, Lima, Perú.
+- Arango, E. (2021). *Marco de trabajo SCRUM extendido con prácticas de Clean Architecture para la mantenibilidad de software*. Tesis de posgrado UPeU, Lima.
 
-### Complementaria (Fuentes secundarias)
+### Libros
 
-- The Process Group. *CMMI for Development condensed Version 1.2*.
-- RTCA. *Software Considerations in Airborne Systems and Equipment Certification*. 1992.
+- Winters, T. (2022). *Ingeniería de software en Google: Lecciones sobre programación aprendidas a lo largo del tiempo*. Editorial Marcombo. 1028 páginas.
+- EBSCO - Software Factory. <http://web.a.ebscohost.com/ehost/pdfviewer/pdfviewer?sid=a008f9ad-d2c8-4466-99d4-d70b485d41a2@sessionmgr4005>
+- Selvakumar, Sebastian. (2023). *Ingeniería del software: Procesos de desarrollo de software*. Editorial Ediciones Nuestro Conocimiento. 64 páginas. ISBN-10: 6206013359.
+- Kniberg, H. (2007). *SCRUM y XP desde las trincheras*. Proyectalis. 122 páginas.
+- Kniberg, H., & Skarin, M. (2010). *Kanban y Scrum*. C4Media. 123 páginas.
+- *Scrum y XP desde las trincheras*. <http://www.proyectalis.com/wp-content/uploads/2008/02/scrum-y-xp-desde-las-trincheras.pdf>
+- Bernal, Jorge. (2022). *Gestión Ágil de Proyectos - Scrum: Una visión práctica de Scrum*. 40 páginas.
+- Reyter, M. (2022). *Agile Product and Project Management*. Apress. 353 páginas.
+- Satpathy, T. (2013). *Una guía para el conocimiento de Scrum (Guía SBOK)*. SCRUMstudy. 310 páginas.
 
 ### Enlaces de internet
 
-- SCAMPI, Version 1.1. <http://www.sei.cmu.edu/reports/01hb001.pdf>
-- NTP-ISO/IEC 17799:2007. <http://www.ongei.gob.pe/normas/0/NORMA_0_RESOLUCIÓNMINISTERIALNº246-2007-PCM.pdf>
-- NTP-ISO/IEC 12207:2006. <http://www.bvindecopi.gob.pe/normas/isoiec12207.pdf>
-- Metodologías de desarrollo (Lévano R. Danny). <http://www.upeu.edu.pe/fia/isistemas/manuales/>
-- Tuco Calizaya, Wilson Fredy. (2012). *Efectividad del framework basado en el patrón de diseño Modelo Vista Presentador en el diseño de aplicaciones web Ajax para la entidad privada BlueStar Energy Solutions*. Tesis de pregrado, Universidad Peruana Unión, Lima, Perú.
-- OpenUP. <http://epf.eclipse.org/wikis/openup/>
-- CMMI para Desarrollo, Versión 1.3. <http://cmmiinstitute.com/assets/SpanishTechnicalReportCMMIV13.pdf>
-- Qué es SCRUM. <http://www.proyectosagiles.org/que-es-scrum>
+- *Software engineering challenges for machine learning applications: A literature review*. <https://dx.doi.org/10.3233/idt-190160>
+- ALICIA CONCYTEC. <https://alicia.concytec.gob.pe/vufind/>
+- SWEBOK V4 Beta (v2022 Dec 31). <https://waseda.app.box.com/s/elnhhnezdycn2q2zp4fe0f2t1fvse5rn>
+- *Aplicación web para la administración de la infraestructura de red y telecomunicaciones del campus central de la Universidad Francisco de Paula Santander en la sede Cúcuta*. <https://doi.org/10.26507/ponencia.833>
+- *The impact of working from home on the success of Scrum projects: A multi-method study*. <https://dx.doi.org/10.1016/j.jss.2022.111562>
+- RENATI SUNEDU. <https://renati.sunedu.gob.pe/>
+- Repositorio Tesis UPeU. <https://repositorio.upeu.edu.pe/home>
+- *Mastering scrum with a focus on team maturity and key components of scrum*. <https://dx.doi.org/10.1016/j.infsof.2022.107079>
+- AdventureWorks sample databases. <https://learn.microsoft.com/es-es/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms>
