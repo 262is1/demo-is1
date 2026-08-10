@@ -1,0 +1,2047 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://262is1.github.io/demo-is1/sesiones/S01_Introduccion_SWEBOK/">
+      
+      
+        <link rel="prev" href="../../silabo_is1_2026_2/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>S1 - Introducción al Curso, Presentación del Sílabo y SWEBOK - Ingeniería de Software I</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#s1-introduccion-al-curso-presentacion-del-silabo-y-swebok" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Ingeniería de Software I" class="md-header__button md-logo" aria-label="Ingeniería de Software I" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ingeniería de Software I
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              S1 - Introducción al Curso, Presentación del Sílabo y SWEBOK
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/262is1/demo-is1" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    262is1/demo-is1
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Ingeniería de Software I" class="md-nav__button md-logo" aria-label="Ingeniería de Software I" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Ingeniería de Software I
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/262is1/demo-is1" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    262is1/demo-is1
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía de Proyecto Sello
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guía de Proyecto Sello
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proyecto-sello/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía del proyecto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Silabos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Silabos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../silabo_is1_2026_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Silabo 2026-1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../silabo_is1_2026_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Silabo 2026-2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Cuerpo de Conocimiento de Ingeniería de Software
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    1. Cuerpo de Conocimiento de Ingeniería de Software
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    S1 - Introducción al Curso, Presentación del Sílabo y SWEBOK
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    S1 - Introducción al Curso, Presentación del Sílabo y SWEBOK
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introducción
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Introducción">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-contexto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 Contexto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-indice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2 Índice
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-proposito-de-aprendizaje" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3 Propósito de aprendizaje
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-producto-de-sesion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4 Producto de sesión
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5 Metodología
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-motivacion-de-la-sesion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6 Motivación de la sesión
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.6 Motivación de la sesión">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#161-caso-el-equipo-que-empieza-codificando-sin-marco-de-conocimiento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6.1 Caso: el equipo que empieza codificando sin marco de conocimiento
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-ubicacion-en-el-curso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.7 Ubicación en el curso
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-explica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Explica
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Explica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-que-es-el-swebok-y-por-que-existe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Qué es el SWEBOK y por qué existe
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-las-18-areas-de-conocimiento-de-swebok-v4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Las 18 áreas de conocimiento de SWEBOK v4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-areas-de-conocimiento-que-trabaja-la-unidad-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Áreas de conocimiento que trabaja la Unidad 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-del-swebok-al-project-charter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Del SWEBOK al Project Charter
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-aplica-actividad-practica-guiada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Aplica: actividad práctica guiada
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Aplica: actividad práctica guiada">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-reconocer-las-18-areas-de-conocimiento-de-swebok-v4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Reconocer las 18 áreas de conocimiento de SWEBOK v4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-leer-el-extracto-guiado-del-swebok-sobre-las-areas-de-la-unidad-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Leer el extracto guiado del SWEBOK sobre las áreas de la Unidad 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-analizar-el-caso-guiado-y-discutir-en-equipo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Analizar el caso guiado y discutir en equipo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-identificar-el-problema-de-negocio-del-proyecto-del-semestre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Identificar el problema de negocio del proyecto del semestre
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-priorizar-areas-de-conocimiento-swebok-aplicables-al-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Priorizar áreas de conocimiento SWEBOK aplicables al proyecto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-conformar-el-equipo-de-trabajo-y-roles-iniciales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6 Conformar el equipo de trabajo y roles iniciales
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#37-completar-la-plantilla-de-propuesta-inicial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7 Completar la plantilla de propuesta inicial
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-crea-actividad-autonoma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Crea: actividad autónoma
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Crea: actividad autónoma">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-plantilla-de-evidencia-individual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Plantilla de evidencia individual
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1 Plantilla de evidencia individual">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#411-datos-del-estudiante" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.1 Datos del estudiante
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#412-trabajo-autonomo-realizado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.2 Trabajo autónomo realizado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#413-evidencia-tecnica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.3 Evidencia técnica
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#414-error-o-hallazgo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.4 Error o hallazgo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#415-reflexion-tecnica-breve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.5 Reflexión técnica breve
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-criterios-minimos-de-aceptacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Criterios mínimos de aceptación
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-cierre-evaluativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Cierre evaluativo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Cierre evaluativo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-resultados-esperados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Resultados esperados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-evidencia-del-producto-de-sesion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Evidencia del producto de sesión
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-preguntas-de-defensa-y-reflexion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Preguntas de defensa y reflexión
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-rubrica-de-evaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 Rúbrica de evaluación
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introducción
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Introducción">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-contexto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 Contexto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-indice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2 Índice
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-proposito-de-aprendizaje" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3 Propósito de aprendizaje
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-producto-de-sesion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4 Producto de sesión
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5 Metodología
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-motivacion-de-la-sesion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6 Motivación de la sesión
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.6 Motivación de la sesión">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#161-caso-el-equipo-que-empieza-codificando-sin-marco-de-conocimiento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6.1 Caso: el equipo que empieza codificando sin marco de conocimiento
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-ubicacion-en-el-curso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.7 Ubicación en el curso
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-explica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Explica
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Explica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-que-es-el-swebok-y-por-que-existe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Qué es el SWEBOK y por qué existe
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-las-18-areas-de-conocimiento-de-swebok-v4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Las 18 áreas de conocimiento de SWEBOK v4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-areas-de-conocimiento-que-trabaja-la-unidad-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Áreas de conocimiento que trabaja la Unidad 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-del-swebok-al-project-charter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Del SWEBOK al Project Charter
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-aplica-actividad-practica-guiada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Aplica: actividad práctica guiada
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Aplica: actividad práctica guiada">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-reconocer-las-18-areas-de-conocimiento-de-swebok-v4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Reconocer las 18 áreas de conocimiento de SWEBOK v4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-leer-el-extracto-guiado-del-swebok-sobre-las-areas-de-la-unidad-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Leer el extracto guiado del SWEBOK sobre las áreas de la Unidad 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-analizar-el-caso-guiado-y-discutir-en-equipo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Analizar el caso guiado y discutir en equipo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-identificar-el-problema-de-negocio-del-proyecto-del-semestre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Identificar el problema de negocio del proyecto del semestre
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-priorizar-areas-de-conocimiento-swebok-aplicables-al-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Priorizar áreas de conocimiento SWEBOK aplicables al proyecto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-conformar-el-equipo-de-trabajo-y-roles-iniciales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6 Conformar el equipo de trabajo y roles iniciales
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#37-completar-la-plantilla-de-propuesta-inicial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7 Completar la plantilla de propuesta inicial
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-crea-actividad-autonoma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Crea: actividad autónoma
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Crea: actividad autónoma">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-plantilla-de-evidencia-individual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Plantilla de evidencia individual
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1 Plantilla de evidencia individual">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#411-datos-del-estudiante" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.1 Datos del estudiante
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#412-trabajo-autonomo-realizado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.2 Trabajo autónomo realizado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#413-evidencia-tecnica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.3 Evidencia técnica
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#414-error-o-hallazgo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.4 Error o hallazgo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#415-reflexion-tecnica-breve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.5 Reflexión técnica breve
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-criterios-minimos-de-aceptacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Criterios mínimos de aceptación
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-cierre-evaluativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Cierre evaluativo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Cierre evaluativo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-resultados-esperados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Resultados esperados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-evidencia-del-producto-de-sesion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Evidencia del producto de sesión
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-preguntas-de-defensa-y-reflexion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Preguntas de defensa y reflexión
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-rubrica-de-evaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 Rúbrica de evaluación
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="s1-introduccion-al-curso-presentacion-del-silabo-y-swebok">S1 - Introducción al Curso, Presentación del Sílabo y SWEBOK</h1>
+<h2 id="1-introduccion">1. Introducción</h2>
+<p>Tiempo: 20 min.</p>
+<h3 id="11-contexto">1.1 Contexto</h3>
+<p>Un proyecto de software no debería empezar por el código. Antes de escribir la primera línea, un equipo de ingeniería necesita un lenguaje común para hablar de requerimientos, arquitectura, construcción, pruebas y mantenimiento — sin ese lenguaje, cada integrante entiende "calidad" o "diseño" de forma distinta y el proyecto se fragmenta. Esta sesión presenta el sílabo de Ingeniería de Software I y construye ese lenguaje común: el SWEBOK (Software Engineering Body of Knowledge), el marco conceptual que fundamentará el Project Charter del proyecto del semestre.</p>
+<h3 id="12-indice">1.2 Índice</h3>
+<ol>
+<li>Qué es el SWEBOK y por qué existe.</li>
+<li>Las 18 áreas de conocimiento de SWEBOK v4.</li>
+<li>Áreas de conocimiento que trabaja la Unidad 1.</li>
+<li>Del SWEBOK al Project Charter.</li>
+</ol>
+<h3 id="13-proposito-de-aprendizaje">1.3 Propósito de aprendizaje</h3>
+<p>Al concluir la clase, estarás en condiciones de:</p>
+<ul>
+<li><strong>Identificar y explicar</strong> las áreas de conocimiento del SWEBOK, y <strong>argumentar</strong> por qué el curso las usa como marco conceptual para iniciar un proyecto de software mediante un Project Charter.</li>
+</ul>
+<h3 id="14-producto-de-sesion">1.4 Producto de sesión</h3>
+<p>Mapa de áreas de conocimiento SWEBOK priorizadas para el proyecto del equipo, con el problema de negocio inicial identificado y el equipo de trabajo conformado.</p>
+<h3 id="15-metodologia">1.5 Metodología</h3>
+<table>
+<thead>
+<tr>
+<th>Fase</th>
+<th>Actividades</th>
+<th>Orientaciones</th>
+<th>Material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Revisión previa individual</td>
+<td>Leer el sílabo del curso y el resumen del SWEBOK (ver 1.6).</td>
+<td>Trabajo individual, antes de clase; traer al menos una idea de problema de negocio para el proyecto del semestre.</td>
+<td>Sílabo IS1 U1.</td>
+</tr>
+<tr>
+<td>Clase presencial</td>
+<td>Presentación del sílabo, lectura guiada del SWEBOK y discusión de sus áreas de conocimiento.</td>
+<td>Trabajo en equipo, siguiendo al docente paso a paso; consulta inmediata ante dudas sobre el alcance de cada área.</td>
+<td>Pasos 3.1 a 3.7 de esta guía.</td>
+</tr>
+<tr>
+<td>Evaluación formativa</td>
+<td>Revisión en clase de la propuesta inicial del equipo (problema, áreas SWEBOK priorizadas, roles).</td>
+<td>La evidencia se completa y sustenta de forma individual, fuera del aula, según los criterios mínimos de la sección 4.2.</td>
+<td>Plantilla de evidencia individual (4.1), rúbrica de evaluación (5.4).</td>
+</tr>
+</tbody>
+</table>
+<h3 id="16-motivacion-de-la-sesion">1.6 Motivación de la sesión</h3>
+<h4 id="161-caso-el-equipo-que-empieza-codificando-sin-marco-de-conocimiento">1.6.1 Caso: el equipo que empieza codificando sin marco de conocimiento</h4>
+<p>Un equipo de estudiantes recibe el encargo de construir un "Sistema de Reserva de Citas Médicas" para una clínica pequeña. Como ya saben programar, abren el editor de código el primer día: alguien define las tablas de la base de datos a su criterio, otro empieza una pantalla de login, un tercero prueba un framework nuevo porque "se ve bien en YouTube". Tres semanas después nadie sabe qué requerimientos están cubiertos, no existe un diseño acordado, no hay criterio de qué probar, y cada cambio de alcance genera una discusión distinta desde cero.</p>
+<p>Pregunta guía:</p>
+<pre><code class="language-text">¿Qué le faltó a este equipo antes de escribir la primera línea de código?
+</code></pre>
+<p>Preguntas para los estudiantes:</p>
+<ol>
+<li>¿Qué decisiones tomó el equipo sin un marco de referencia común?</li>
+<li>¿Qué problemas concretos les habría evitado acordar antes qué es un "requerimiento", un "diseño" o una "prueba" dentro del proyecto?</li>
+<li>¿Qué documento inicial habría ordenado el arranque de este proyecto?</li>
+</ol>
+<h3 id="17-ubicacion-en-el-curso">1.7 Ubicación en el curso</h3>
+<ul>
+<li>Unidad: U1 - Cuerpo de Conocimiento de Ingeniería de Software.</li>
+<li>Producto de unidad: Project Charter del proyecto de software fundamentado en las áreas de conocimiento de SWEBOK (matriz de requerimientos, criterios de control de cambios y configuración, enunciado de trabajo, objetivos, EDT, equipo de trabajo y riesgos).</li>
+<li>Producto del curso: Proyecto Sello: proyecto de software formulado con SWEBOK como marco conceptual, gestionado con los roles, artefactos y ceremonias de Scrum, comparado y adaptado frente al ciclo de vida de OpenUP, y sustentado integralmente.</li>
+<li>Avance del producto en esta sesión: equipo de trabajo conformado, problema de negocio identificado y primer mapa de áreas SWEBOK priorizadas para el proyecto.</li>
+</ul>
+<p>Roadmap del producto de unidad:</p>
+<pre><code class="language-mermaid">flowchart TB
+    S1[&quot;S1&lt;br/&gt;SWEBOK: introducción&lt;br/&gt;HOY&quot;]
+    S2[&quot;S2&lt;br/&gt;SWEBOK: Requerimientos,&lt;br/&gt;Arquitectura y Diseño&quot;]
+    S3[&quot;S3&lt;br/&gt;SWEBOK: Construcción, Pruebas&lt;br/&gt;y Gestión de la Configuración&quot;]
+    S4[&quot;S4&lt;br/&gt;SWEBOK: Operaciones&lt;br/&gt;y Mantenimiento&quot;]
+    Evaluacion[&quot;Evaluación U1&lt;br/&gt;Project Charter sustentado&lt;br/&gt;S5&quot;]
+
+    S1 --&gt; S2 --&gt; S3 --&gt; S4 --&gt; Evaluacion
+
+    classDef today fill:#ffe08a,stroke:#9a6b00,stroke-width:2px,color:#111;
+    class S1 today;
+</code></pre>
+<p>Hoy se reconoce el marco completo de SWEBOK y se elige el problema de negocio del proyecto. En las siguientes sesiones se profundiza en las áreas de conocimiento que fundamentan cada componente del Project Charter: requerimientos, arquitectura y diseño (S2); construcción, pruebas y gestión de la configuración (S3); operaciones y mantenimiento (S4). La evaluación de la Unidad 1 valida el Project Charter completo, sustentado por el equipo.</p>
+<h2 id="2-explica">2. Explica</h2>
+<p>Tiempo: 25 min.</p>
+<h3 id="21-que-es-el-swebok-y-por-que-existe">2.1 Qué es el SWEBOK y por qué existe</h3>
+<p>El <strong>SWEBOK</strong> (<em>Guide to the Software Engineering Body of Knowledge</em>) es el cuerpo de conocimiento de la Ingeniería de Software publicado por el <strong>IEEE Computer Society</strong>. No es un estándar de cumplimiento obligatorio ni un método de trabajo: es una guía de referencia que identifica y organiza el conocimiento generalmente aceptado de la disciplina, de forma que cualquier equipo pueda hablar el mismo lenguaje técnico sin importar la metodología, el lenguaje de programación o el dominio del proyecto.</p>
+<p>El curso usa la edición vigente, <strong>SWEBOK v4.0</strong> (Washizaki, 2024), que amplía la edición anterior (v3, 15 áreas) a <strong>18 áreas de conocimiento (Knowledge Areas, KA)</strong>, incorporando tres áreas nuevas — Arquitectura de Software, Operaciones de Ingeniería de Software y Seguridad de Software — y actualizando el resto para reflejar prácticas ágiles y DevOps.</p>
+<p><strong>Error frecuente</strong>: confundir el SWEBOK con una metodología (como Scrum) o con un estándar de proceso (como la NTP ISO/IEC 12207). El SWEBOK responde a una pregunta distinta: no "cómo se gestiona el proyecto", sino "qué debe saber un ingeniero de software para hacer bien su trabajo, sin importar cómo se organice el equipo".</p>
+<h3 id="22-las-18-areas-de-conocimiento-de-swebok-v4">2.2 Las 18 áreas de conocimiento de SWEBOK v4</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Área de conocimiento</th>
+<th>Qué cubre</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Software Requirements (Requerimientos de Software)</td>
+<td>Elicitación, análisis, especificación y validación de requerimientos.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Software Architecture (Arquitectura de Software)</td>
+<td>Estructura de alto nivel del sistema, componentes y decisiones arquitectónicas.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Software Design (Diseño de Software)</td>
+<td>Diseño detallado de componentes, módulos e interfaces.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Software Construction (Construcción de Software)</td>
+<td>Codificación, pruebas unitarias, integración y gestión de la complejidad al construir.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Software Testing (Pruebas de Software)</td>
+<td>Diseño y ejecución de pruebas para verificar el software.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Software Engineering Operations (Operaciones de Ingeniería de Software)</td>
+<td>Puesta en producción, monitoreo y operación continua del software.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Software Maintenance (Mantenimiento de Software)</td>
+<td>Modificación del software ya en producción: correcciones, mejoras y adaptaciones.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Software Configuration Management (Gestión de la Configuración del Software)</td>
+<td>Control de versiones, líneas base y control de cambios sobre los artefactos del proyecto.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Software Engineering Management (Gestión de la Ingeniería de Software)</td>
+<td>Planificación, seguimiento y control del trabajo de ingeniería.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Software Engineering Process (Proceso de Ingeniería de Software)</td>
+<td>Definición, medición y mejora de los procesos del ciclo de vida del software.</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Software Engineering Models and Methods (Modelos y Métodos de Ingeniería de Software)</td>
+<td>Modelado del sistema y métodos de desarrollo (estructurados, orientados a objetos, ágiles).</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Software Quality (Calidad de Software)</td>
+<td>Aseguramiento y control de calidad del proceso y del producto.</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Software Security (Seguridad de Software)</td>
+<td>Prácticas de ingeniería para construir software seguro desde el diseño.</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Software Engineering Professional Practice (Práctica Profesional)</td>
+<td>Ética, responsabilidad profesional y trabajo en equipo del ingeniero de software.</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Software Engineering Economics (Economía de la Ingeniería de Software)</td>
+<td>Análisis costo-beneficio y toma de decisiones económicas del proyecto.</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Computing Foundations (Fundamentos de Computación)</td>
+<td>Algoritmos, estructuras de datos y fundamentos de programación.</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Mathematical Foundations (Fundamentos Matemáticos)</td>
+<td>Lógica, teoría de conjuntos y matemática aplicada a la ingeniería de software.</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Engineering Foundations (Fundamentos de Ingeniería)</td>
+<td>Principios generales de ingeniería aplicados al desarrollo de software.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Error frecuente</strong>: tratar las 18 áreas como una lista para memorizar. El SWEBOK se usa como referencia de consulta: un equipo prioriza las áreas relevantes para su proyecto, no las cubre todas con el mismo nivel de profundidad.</p>
+<h3 id="23-areas-de-conocimiento-que-trabaja-la-unidad-1">2.3 Áreas de conocimiento que trabaja la Unidad 1</h3>
+<p>El resultado de aprendizaje de la asignatura fundamenta el Project Charter en un subconjunto de las 18 áreas, desarrollado a lo largo de las cuatro sesiones de contenido de esta unidad:</p>
+<table>
+<thead>
+<tr>
+<th>Sesión</th>
+<th>Áreas SWEBOK trabajadas</th>
+<th>Aporte al Project Charter</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S1 (hoy)</td>
+<td>Visión general de las 18 áreas.</td>
+<td>Identificación del problema de negocio y priorización inicial de áreas.</td>
+</tr>
+<tr>
+<td>S2</td>
+<td>Software Requirements; Software Architecture; Software Design.</td>
+<td>Matriz de requerimientos y primeras decisiones de arquitectura y diseño.</td>
+</tr>
+<tr>
+<td>S3</td>
+<td>Software Construction; Software Testing; Software Configuration Management.</td>
+<td>Enunciado de trabajo y criterios de control de cambios.</td>
+</tr>
+<tr>
+<td>S4</td>
+<td>Software Engineering Operations; Software Maintenance.</td>
+<td>Formulación completa del Project Charter (objetivos, EDT, equipo, riesgos).</td>
+</tr>
+</tbody>
+</table>
+<h3 id="24-del-swebok-al-project-charter">2.4 Del SWEBOK al Project Charter</h3>
+<p>Cada área de conocimiento no es un tema aislado: alimenta directamente un componente del Project Charter que se construye en esta unidad.</p>
+<table>
+<thead>
+<tr>
+<th>Componente del Project Charter</th>
+<th>Área(s) SWEBOK que lo fundamenta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Matriz de requerimientos</td>
+<td>Software Requirements</td>
+</tr>
+<tr>
+<td>Criterios de control de cambios y configuración</td>
+<td>Software Configuration Management</td>
+</tr>
+<tr>
+<td>Enunciado de trabajo (información base)</td>
+<td>Software Engineering Process; Software Engineering Management</td>
+</tr>
+<tr>
+<td>Objetivos y descripción del problema</td>
+<td>Software Requirements; Software Engineering Economics</td>
+</tr>
+<tr>
+<td>EDT (Estructura de Descomposición del Trabajo)</td>
+<td>Software Engineering Management</td>
+</tr>
+<tr>
+<td>Equipo de trabajo</td>
+<td>Software Engineering Professional Practice</td>
+</tr>
+<tr>
+<td>Riesgos</td>
+<td>Software Engineering Management; Software Quality</td>
+</tr>
+</tbody>
+</table>
+<p>Un Project Charter que no puede trazarse a ninguna área SWEBOK es una lista de buenas intenciones, no un documento de ingeniería: por eso el curso exige que cada componente del Project Charter cite explícitamente el área de conocimiento que lo sustenta.</p>
+<h2 id="3-aplica-actividad-practica-guiada">3. Aplica: actividad práctica guiada</h2>
+<p>Tiempo: 2h.</p>
+<p>Hoja de ruta de la sesión práctica:</p>
+<ul>
+<li>3.1 Reconocer las 18 áreas de conocimiento de SWEBOK v4.</li>
+<li>3.2 Leer el extracto guiado del SWEBOK sobre las áreas de la Unidad 1.</li>
+<li>3.3 Analizar el caso guiado y discutir en equipo.</li>
+<li>3.4 Identificar el problema de negocio del proyecto del semestre.</li>
+<li>3.5 Priorizar áreas de conocimiento SWEBOK aplicables al proyecto.</li>
+<li>3.6 Conformar el equipo de trabajo y roles iniciales.</li>
+<li>3.7 Completar la plantilla de propuesta inicial.</li>
+</ul>
+<h3 id="31-reconocer-las-18-areas-de-conocimiento-de-swebok-v4">3.1 Reconocer las 18 áreas de conocimiento de SWEBOK v4</h3>
+<p><strong>Producto del paso:</strong> lista de las 18 áreas con una frase propia por área.</p>
+<p>Usando la tabla de 2.2 como referencia, cada estudiante escribe con sus propias palabras qué cubre cada una de las 18 áreas, sin copiar literalmente la definición.</p>
+<h3 id="32-leer-el-extracto-guiado-del-swebok-sobre-las-areas-de-la-unidad-1">3.2 Leer el extracto guiado del SWEBOK sobre las áreas de la Unidad 1</h3>
+<p><strong>Producto del paso:</strong> notas de lectura de las siete áreas de la Unidad 1.</p>
+<p>El docente guía la lectura de las áreas que fundamentan el Project Charter (Requirements, Architecture, Design, Construction, Testing, Configuration Management, Operations, Maintenance). Cada estudiante registra, por área, una idea clave y una duda.</p>
+<h3 id="33-analizar-el-caso-guiado-y-discutir-en-equipo">3.3 Analizar el caso guiado y discutir en equipo</h3>
+<p><strong>Producto del paso:</strong> lista de decisiones que el equipo del caso tomó sin marco de referencia.</p>
+<p>Retoma el caso de 1.6.1 (Sistema de Reserva de Citas Médicas). En equipo, identifica al menos cuatro decisiones que el equipo del caso tomó sin acordar antes qué área de conocimiento las debía guiar (por ejemplo: "definir tablas sin matriz de requerimientos" corresponde a Software Requirements).</p>
+<h3 id="34-identificar-el-problema-de-negocio-del-proyecto-del-semestre">3.4 Identificar el problema de negocio del proyecto del semestre</h3>
+<p><strong>Producto del paso:</strong> enunciado breve del problema de negocio elegido por el equipo.</p>
+<p>Cada equipo elige (o confirma) el problema de negocio real o simulado que desarrollará durante todo el semestre. Responde:</p>
+<ol>
+<li>¿Qué problema resuelve el proyecto?</li>
+<li>¿Quién lo vive actualmente (usuario o área afectada)?</li>
+<li>¿Por qué es un problema relevante para trabajar 16 semanas?</li>
+</ol>
+<h3 id="35-priorizar-areas-de-conocimiento-swebok-aplicables-al-proyecto">3.5 Priorizar áreas de conocimiento SWEBOK aplicables al proyecto</h3>
+<p><strong>Producto del paso:</strong> tabla de áreas SWEBOK priorizadas para el proyecto del equipo.</p>
+<table>
+<thead>
+<tr>
+<th>Área SWEBOK</th>
+<th>¿Aplica al proyecto?</th>
+<th>Por qué</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Software Requirements</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Software Architecture</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Software Design</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Software Construction</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Software Testing</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Software Configuration Management</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Completa la tabla con el criterio del equipo; no todas las áreas tienen el mismo peso en todos los proyectos.</p>
+<h3 id="36-conformar-el-equipo-de-trabajo-y-roles-iniciales">3.6 Conformar el equipo de trabajo y roles iniciales</h3>
+<p><strong>Producto del paso:</strong> ficha del equipo con roles iniciales.</p>
+<p>Completa:</p>
+<pre><code class="language-text">Nombre del equipo:
+Integrantes:
+Problema de negocio elegido:
+Rol inicial de cada integrante (referente de requerimientos, de arquitectura, de calidad, etc.):
+</code></pre>
+<h3 id="37-completar-la-plantilla-de-propuesta-inicial">3.7 Completar la plantilla de propuesta inicial</h3>
+<p><strong>Producto del paso:</strong> propuesta inicial completa del proyecto.</p>
+<p>Completa:</p>
+<pre><code class="language-text">Problema de negocio:
+Usuario o área afectada:
+Áreas SWEBOK priorizadas:
+Equipo y roles:
+Primer riesgo identificado:
+</code></pre>
+<h2 id="4-crea-actividad-autonoma">4. Crea: actividad autónoma</h2>
+<p>Tiempo: 2h fuera del aula.</p>
+<h3 id="41-plantilla-de-evidencia-individual">4.1 Plantilla de evidencia individual</h3>
+<p>Entrega un PDF con el siguiente nombre:</p>
+<pre><code class="language-text">S01_Equipo##_ApellidoNombre.pdf
+</code></pre>
+<p>El PDF debe usar esta estructura. La primera sección define el trabajo autónomo; completa las demás con tus evidencias.</p>
+<h4 id="411-datos-del-estudiante">4.1.1 Datos del estudiante</h4>
+<ul>
+<li>Nombre:</li>
+<li>Equipo:</li>
+<li>Sesión: S01 - Introducción al Curso, Presentación del Sílabo y SWEBOK</li>
+<li>Rol o aporte realizado:</li>
+<li>Link del repositorio:</li>
+</ul>
+<h4 id="412-trabajo-autonomo-realizado">4.1.2 Trabajo autónomo realizado</h4>
+<p>Completa y evidencia estas tareas:</p>
+<ol>
+<li>Confirmar el problema de negocio del proyecto del semestre.</li>
+<li>Redactar en tus propias palabras las 18 áreas de conocimiento de SWEBOK v4.</li>
+<li>Priorizar las áreas SWEBOK aplicables a tu proyecto, con justificación.</li>
+<li>Registrar el equipo de trabajo y los roles iniciales.</li>
+</ol>
+<h4 id="413-evidencia-tecnica">4.1.3 Evidencia técnica</h4>
+<p>Incluye capturas o extractos con una breve explicación debajo de cada uno:</p>
+<ul>
+<li>Lista de las 18 áreas SWEBOK con descripción propia (equivalente a 3.1).</li>
+<li>Tabla de áreas priorizadas para el proyecto, con justificación (equivalente a 3.5).</li>
+<li>Ficha del equipo con roles iniciales (equivalente a 3.6).</li>
+<li>Plantilla de propuesta inicial completa (equivalente a 3.7).</li>
+</ul>
+<h4 id="414-error-o-hallazgo">4.1.4 Error o hallazgo</h4>
+<p>Describe al menos un riesgo o duda que identificaste al elegir el problema de negocio o priorizar las áreas SWEBOK:</p>
+<ul>
+<li>Qué ocurrió o qué limitación encontraste.</li>
+<li>Cómo lo identificaste.</li>
+<li>Cómo lo documentaste o qué supuesto tomaste.</li>
+</ul>
+<h4 id="415-reflexion-tecnica-breve">4.1.5 Reflexión técnica breve</h4>
+<p>Responde en 5 a 8 líneas:</p>
+<pre><code class="language-text">¿Por qué un proyecto de software debe fundamentarse en un cuerpo de conocimiento como SWEBOK antes de empezar a construir?
+</code></pre>
+<h3 id="42-criterios-minimos-de-aceptacion">4.2 Criterios mínimos de aceptación</h3>
+<p>La evidencia individual se considera completa si:</p>
+<ul>
+<li>El problema de negocio está delimitado y es coherente con el alcance de un proyecto de 16 semanas.</li>
+<li>Las 18 áreas de SWEBOK están descritas con palabras propias, sin copia literal.</li>
+<li>Las áreas priorizadas para el proyecto están justificadas con al menos una razón concreta cada una.</li>
+<li>El equipo de trabajo y los roles iniciales están registrados.</li>
+<li>La evidencia identifica un aporte individual verificable.</li>
+</ul>
+<h2 id="5-cierre-evaluativo">5. Cierre evaluativo</h2>
+<p>Tiempo: 20 min.</p>
+<p>Esta sección conecta el resultado de aprendizaje de la sesión con el producto que debe evidenciar cada estudiante.</p>
+<h3 id="51-resultados-esperados">5.1 Resultados esperados</h3>
+<p>Al finalizar la sesión, el estudiante debe demostrar que:</p>
+<ul>
+<li>Explica qué es el SWEBOK y por qué el curso lo usa como marco conceptual.</li>
+<li>Identifica las 18 áreas de conocimiento de SWEBOK v4.</li>
+<li>Reconoce las áreas SWEBOK que fundamentan el Project Charter de la Unidad 1.</li>
+<li>Delimita el problema de negocio del proyecto del semestre.</li>
+<li>Conforma un equipo de trabajo con roles iniciales.</li>
+</ul>
+<h3 id="52-evidencia-del-producto-de-sesion">5.2 Evidencia del producto de sesión</h3>
+<p>Cada estudiante entrega un PDF individual siguiendo la plantilla de la sección 4.1.</p>
+<p>Nombre del archivo:</p>
+<pre><code class="language-text">S01_Equipo##_ApellidoNombre.pdf
+</code></pre>
+<p>La evidencia debe demostrar:</p>
+<ul>
+<li>Problema de negocio delimitado.</li>
+<li>Áreas SWEBOK priorizadas y justificadas.</li>
+<li>Equipo de trabajo conformado.</li>
+<li>Reflexión técnica breve.</li>
+</ul>
+<p>La revisión se realiza con los criterios mínimos de aceptación de la sección 4.2 y la rúbrica de la sección 5.4.</p>
+<h3 id="53-preguntas-de-defensa-y-reflexion">5.3 Preguntas de defensa y reflexión</h3>
+<ol>
+<li>¿Qué diferencia hay entre el SWEBOK y una metodología como Scrum u OpenUP?</li>
+<li>¿Qué área SWEBOK consideras más crítica para tu proyecto y por qué?</li>
+<li>¿Qué pasaría con tu proyecto si el equipo ignorara la Gestión de la Configuración del Software?</li>
+<li>¿Cómo se conecta el área de Requerimientos con el Project Charter que construirás en las próximas sesiones?</li>
+</ol>
+<h3 id="54-rubrica-de-evaluacion">5.4 Rúbrica de evaluación</h3>
+<table>
+<thead>
+<tr>
+<th>Dimensión</th>
+<th style="text-align: right;">Peso</th>
+<th>3 - Logro destacado</th>
+<th>2 - Logro</th>
+<th>1 - Proceso</th>
+<th>0 - Inicio</th>
+<th style="text-align: right;">Puntuación obtenida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Comprensión del SWEBOK</td>
+<td style="text-align: right;">2</td>
+<td>Explica con precisión qué es el SWEBOK y su propósito como cuerpo de conocimiento.</td>
+<td>Explica correctamente qué es el SWEBOK.</td>
+<td>Explicación parcial o imprecisa.</td>
+<td>No explica qué es el SWEBOK.</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td>2. Áreas de conocimiento</td>
+<td style="text-align: right;">2</td>
+<td>Describe las 18 áreas con palabras propias y ejemplos claros.</td>
+<td>Describe correctamente las 18 áreas.</td>
+<td>Descripción incompleta o copiada.</td>
+<td>No identifica las áreas de conocimiento.</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td>3. Problema de negocio</td>
+<td style="text-align: right;">2</td>
+<td>Problema delimitado, viable y bien justificado para 16 semanas de trabajo.</td>
+<td>Problema delimitado y comprensible.</td>
+<td>Problema impreciso o poco delimitado.</td>
+<td>No delimita un problema de negocio.</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td>4. Priorización de áreas SWEBOK</td>
+<td style="text-align: right;">2</td>
+<td>Prioriza áreas con justificación sólida y conectada al proyecto.</td>
+<td>Prioriza áreas de forma correcta.</td>
+<td>Priorización débil o sin justificar.</td>
+<td>No prioriza áreas para el proyecto.</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td>5. Aporte individual</td>
+<td style="text-align: right;">1</td>
+<td>Aporte verificable y bien documentado.</td>
+<td>Aporte identificable.</td>
+<td>Aporte mencionado de forma general.</td>
+<td>Sin aporte individual.</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td>6. Orden y reflexión</td>
+<td style="text-align: right;">1</td>
+<td>Evidencia clara, ordenada y reflexión técnica precisa.</td>
+<td>Evidencia comprensible.</td>
+<td>Evidencia desordenada o superficial.</td>
+<td>Sin evidencia suficiente.</td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<p>Puntuación acumulada = suma de (<code>Peso</code> * <code>Puntuación obtenida</code>) = ____.</p>
+<p>Nota final = (<code>Puntuación acumulada</code> / 30) * 20 = ____.</p>
+<p>Para usar la rúbrica con IA, solicita:</p>
+<pre><code class="language-text">Evalúa el PDF usando la rúbrica de la sesión.
+Para cada dimensión selecciona la puntuación obtenida usando la escala Inicio=0, Proceso=1, Logro=2, Logro destacado=3.
+Justifica brevemente cada puntuación.
+Calcula la puntuación acumulada con la fórmula: suma de (Peso * Puntuación obtenida).
+Calcula la nota final sobre 20 con la fórmula: (Puntuación acumulada / 30) * 20.
+Indica 2 fortalezas y 2 recomendaciones.
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.top", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
