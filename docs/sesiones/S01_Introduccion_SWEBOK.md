@@ -4,9 +4,9 @@
 
 Tiempo: 20 min.
 
-### 1.1 Contexto
+### 1.1 Presentación de la sesión
 
-Un proyecto de software no debería empezar por el código. Antes de escribir la primera línea, un equipo de ingeniería necesita un lenguaje común para hablar de requerimientos, arquitectura, construcción, pruebas y mantenimiento — sin ese lenguaje, cada integrante entiende "calidad" o "diseño" de forma distinta y el proyecto se fragmenta. Esta sesión presenta el sílabo de Ingeniería de Software I y construye ese lenguaje común: el SWEBOK (Software Engineering Body of Knowledge), el marco conceptual que fundamentará el Project Charter del proyecto del semestre.
+Esta sesión abre la Unidad 1: presenta el sílabo de Ingeniería de Software I e introduce el SWEBOK (Software Engineering Body of Knowledge), el marco conceptual que fundamentará el Project Charter del proyecto del semestre. El porqué un equipo necesita este lenguaje común antes de escribir la primera línea de código se desarrolla en 1.6, a partir del caso del equipo que empieza codificando sin marco de conocimiento.
 
 ### 1.2 Índice
 
@@ -27,11 +27,13 @@ Mapa de áreas de conocimiento SWEBOK priorizadas para el proyecto del equipo, c
 
 ### 1.5 Metodología
 
-| Fase | Actividades | Orientaciones | Material |
-|---|---|---|---|
-| Revisión previa individual | Leer el sílabo del curso y el resumen del SWEBOK (ver 1.6). | Trabajo individual, antes de clase; traer al menos una idea de problema de negocio para el proyecto del semestre. | Sílabo IS1 U1. |
-| Clase presencial | Presentación del sílabo, lectura guiada del SWEBOK y discusión de sus áreas de conocimiento. | Trabajo en equipo, siguiendo al docente paso a paso; consulta inmediata ante dudas sobre el alcance de cada área. | Pasos 3.1 a 3.7 de esta guía. |
-| Evaluación formativa | Revisión en clase de la propuesta inicial del equipo (problema, áreas SWEBOK priorizadas, roles). | La evidencia se completa y sustenta de forma individual, fuera del aula, según los criterios mínimos de la sección 4.2. | Plantilla de evidencia individual (4.1), rúbrica de evaluación (5.4). |
+**Tabla 1. Metodología de la sesión**
+
+| Actividades a Realizar en el Periodo | Orientaciones generales (Orientaciones Metodológicas) | Material de estudio recomendado |
+|---|---|---|
+| Revisión previa individual | Leer el sílabo del curso y el resumen del SWEBOK (ver 1.6). Trabajo individual, antes de clase; traer al menos una idea de problema de negocio para el proyecto del semestre. | Sílabo IS1 U1. |
+| Clase presencial | Presentación del sílabo, lectura guiada del SWEBOK y discusión de sus áreas de conocimiento. Trabajo en equipo, siguiendo al docente paso a paso; consulta inmediata ante dudas sobre el alcance de cada área. | Pasos 3.1 a 3.7 de esta guía. |
+| Evaluación formativa | Revisión en clase de la propuesta inicial del equipo (problema, áreas SWEBOK priorizadas, roles). La evidencia se completa y sustenta de forma individual, fuera del aula, según los criterios mínimos de la sección 4.2. | Plantilla de evidencia individual (4.1), rúbrica de evaluación (5.4). |
 
 ### 1.6 Motivación de la sesión
 
@@ -45,11 +47,16 @@ Pregunta guía:
 ¿Qué le faltó a este equipo antes de escribir la primera línea de código?
 ```
 
-Preguntas para los estudiantes:
+**Preguntas de análisis**
+
+**Activación de conocimientos previos**
 
 1. ¿Qué decisiones tomó el equipo sin un marco de referencia común?
-2. ¿Qué problemas concretos les habría evitado acordar antes qué es un "requerimiento", un "diseño" o una "prueba" dentro del proyecto?
-3. ¿Qué documento inicial habría ordenado el arranque de este proyecto?
+
+**Comprensión del cuerpo de conocimiento de ingeniería de software**
+
+1. ¿Qué problemas concretos les habría evitado acordar antes qué es un "requerimiento", un "diseño" o una "prueba" dentro del proyecto?
+2. ¿Qué documento inicial habría ordenado el arranque de este proyecto?
 
 ### 1.7 Ubicación en el curso
 
@@ -59,6 +66,8 @@ Preguntas para los estudiantes:
 - Avance del producto en esta sesión: equipo de trabajo conformado, problema de negocio identificado y primer mapa de áreas SWEBOK priorizadas para el proyecto.
 
 Roadmap del producto de unidad:
+
+**Figura 1. Roadmap del producto de unidad**
 
 ```mermaid
 flowchart TB
@@ -90,6 +99,8 @@ El curso usa la edición vigente, **SWEBOK v4.0** (Washizaki, 2024), que amplía
 
 ### 2.2 Las 18 áreas de conocimiento de SWEBOK v4
 
+**Tabla 2. Áreas de conocimiento de SWEBOK v4**
+
 | # | Área de conocimiento | Qué cubre |
 |---|---|---|
 | 1 | Software Requirements (Requerimientos de Software) | Elicitación, análisis, especificación y validación de requerimientos. |
@@ -117,6 +128,8 @@ El curso usa la edición vigente, **SWEBOK v4.0** (Washizaki, 2024), que amplía
 
 El resultado de aprendizaje de la asignatura fundamenta el Project Charter en un subconjunto de las 18 áreas, desarrollado a lo largo de las cuatro sesiones de contenido de esta unidad:
 
+**Tabla 3. Áreas SWEBOK trabajadas por sesión en la Unidad 1**
+
 | Sesión | Áreas SWEBOK trabajadas | Aporte al Project Charter |
 |---|---|---|
 | S1 (hoy) | Visión general de las 18 áreas. | Identificación del problema de negocio y priorización inicial de áreas. |
@@ -127,6 +140,8 @@ El resultado de aprendizaje de la asignatura fundamenta el Project Charter en un
 ### 2.4 Del SWEBOK al Project Charter
 
 Cada área de conocimiento no es un tema aislado: alimenta directamente un componente del Project Charter que se construye en esta unidad.
+
+**Tabla 4. Componentes del Project Charter y áreas SWEBOK que los fundamentan**
 
 | Componente del Project Charter | Área(s) SWEBOK que lo fundamenta |
 |---|---|
@@ -144,15 +159,21 @@ Un Project Charter que no puede trazarse a ninguna área SWEBOK es una lista de 
 
 Tiempo: 2h.
 
-Hoja de ruta de la sesión práctica:
+**Actividad:** mapeo de las áreas de conocimiento del SWEBOK y elección del problema de negocio del proyecto del semestre.
 
-- 3.1 Reconocer las 18 áreas de conocimiento de SWEBOK v4.
-- 3.2 Leer el extracto guiado del SWEBOK sobre las áreas de la Unidad 1.
-- 3.3 Analizar el caso guiado y discutir en equipo.
-- 3.4 Identificar el problema de negocio del proyecto del semestre.
-- 3.5 Priorizar áreas de conocimiento SWEBOK aplicables al proyecto.
-- 3.6 Conformar el equipo de trabajo y roles iniciales.
-- 3.7 Completar la plantilla de propuesta inicial.
+**Propósito de la actividad:** reconocer las 18 áreas de conocimiento de SWEBOK v4 y priorizar las que fundamentarán el Project Charter del equipo, a partir del análisis de un caso guiado.
+
+**Orientaciones metodológicas:** el docente guía la lectura del sílabo y del extracto del SWEBOK, y conduce el análisis del caso frente a la clase; los equipos replican el análisis sobre su propio proyecto, identificando el problema de negocio, priorizando áreas SWEBOK y conformando roles, verificando cada paso antes de completar la plantilla de propuesta inicial.
+
+**Actividades para realizar:**
+
+- **3.1** Reconocer las 18 áreas de conocimiento de SWEBOK v4.
+- **3.2** Leer el extracto guiado del SWEBOK sobre las áreas de la Unidad 1.
+- **3.3** Analizar el caso guiado y discutir en equipo.
+- **3.4** Identificar el problema de negocio del proyecto del semestre.
+- **3.5** Priorizar áreas de conocimiento SWEBOK aplicables al proyecto.
+- **3.6** Conformar el equipo de trabajo y roles iniciales.
+- **3.7** Completar la plantilla de propuesta inicial.
 
 ### 3.1 Reconocer las 18 áreas de conocimiento de SWEBOK v4
 
@@ -185,6 +206,8 @@ Cada equipo elige (o confirma) el problema de negocio real o simulado que desarr
 ### 3.5 Priorizar áreas de conocimiento SWEBOK aplicables al proyecto
 
 **Producto del paso:** tabla de áreas SWEBOK priorizadas para el proyecto del equipo.
+
+**Tabla 5. Áreas SWEBOK priorizadas para el proyecto del equipo**
 
 | Área SWEBOK | ¿Aplica al proyecto? | Por qué |
 |---|---|---|
@@ -228,25 +251,9 @@ Primer riesgo identificado:
 
 Tiempo: 2h fuera del aula.
 
-### 4.1 Plantilla de evidencia individual
+### 4.1 Actividad
 
-Entrega un PDF con el siguiente nombre:
-
-```text
-S01_Equipo##_ApellidoNombre.pdf
-```
-
-El PDF debe usar esta estructura. La primera sección define el trabajo autónomo; completa las demás con tus evidencias.
-
-#### 4.1.1 Datos del estudiante
-
-- Nombre:
-- Equipo:
-- Sesión: S01 - Introducción al Curso, Presentación del Sílabo y SWEBOK
-- Rol o aporte realizado:
-- Link del repositorio:
-
-#### 4.1.2 Trabajo autónomo realizado
+Cada estudiante replica, de forma individual y fuera del aula, el análisis SWEBOK y la propuesta inicial del proyecto construidos en equipo durante la sesión.
 
 Completa y evidencia estas tareas:
 
@@ -255,16 +262,47 @@ Completa y evidencia estas tareas:
 3. Priorizar las áreas SWEBOK aplicables a tu proyecto, con justificación.
 4. Registrar el equipo de trabajo y los roles iniciales.
 
-#### 4.1.3 Evidencia técnica
+### 4.2 Propósito
 
-Incluye capturas o extractos con una breve explicación debajo de cada uno:
+Que cada estudiante demuestre, de forma individual y fuera del aula, que puede reproducir el patrón construido en clase sin el acompañamiento del docente.
 
-- Lista de las 18 áreas SWEBOK con descripción propia (equivalente a 3.1).
-- Tabla de áreas priorizadas para el proyecto, con justificación (equivalente a 3.5).
-- Ficha del equipo con roles iniciales (equivalente a 3.6).
-- Plantilla de propuesta inicial completa (equivalente a 3.7).
+### 4.3 Indicaciones
 
-#### 4.1.4 Error o hallazgo
+Entrega un PDF con el siguiente nombre:
+
+```text
+S01_Equipo##_ApellidoNombre.pdf
+```
+
+Cada captura de pantalla del informe debe mostrar, sin recortar, el reloj del sistema (fecha y hora) y tu usuario o foto de perfil (Windows, VS Code o navegador) visibles en pantalla — es lo que permite verificar que la evidencia es tuya y que corresponde al momento real de tu trabajo.
+
+#### 4.3.1 Estructura del informe
+
+**Datos del estudiante**
+
+- Nombre:
+- Equipo:
+- Sesión: S01 - Introducción al Curso, Presentación del Sílabo y SWEBOK
+- Rol o aporte realizado:
+- Link de GitHub:
+
+**Evidencia técnica**
+
+Incluye capturas o extractos con una breve explicación debajo de cada uno, organizados en los mismos cinco bloques de la rúbrica (4.6):
+
+1. *Comprensión del SWEBOK*
+    - Explicación propia de qué es el SWEBOK y por qué el curso lo usa como marco conceptual.
+2. *Áreas de conocimiento*
+    - Lista de las 18 áreas SWEBOK con descripción propia (equivalente a 3.1).
+3. *Problema de negocio*
+    - Enunciado del problema de negocio elegido para el proyecto del semestre (equivalente a 3.4).
+4. *Priorización de áreas SWEBOK*
+    - Tabla de áreas priorizadas para el proyecto, con justificación (equivalente a 3.5).
+5. *Aporte individual*
+    - Ficha del equipo con roles iniciales y aporte propio identificado (equivalente a 3.6).
+    - Plantilla de propuesta inicial completa (equivalente a 3.7).
+
+**Error o hallazgo**
 
 Describe al menos un riesgo o duda que identificaste al elegir el problema de negocio o priorizar las áreas SWEBOK:
 
@@ -272,7 +310,7 @@ Describe al menos un riesgo o duda que identificaste al elegir el problema de ne
 - Cómo lo identificaste.
 - Cómo lo documentaste o qué supuesto tomaste.
 
-#### 4.1.5 Reflexión técnica breve
+**Reflexión técnica breve**
 
 Responde en 5 a 8 líneas:
 
@@ -280,7 +318,7 @@ Responde en 5 a 8 líneas:
 ¿Por qué un proyecto de software debe fundamentarse en un cuerpo de conocimiento como SWEBOK antes de empezar a construir?
 ```
 
-### 4.2 Criterios mínimos de aceptación
+### 4.4 Criterios mínimos de aceptación
 
 La evidencia individual se considera completa si:
 
@@ -289,71 +327,58 @@ La evidencia individual se considera completa si:
 - Las áreas priorizadas para el proyecto están justificadas con al menos una razón concreta cada una.
 - El equipo de trabajo y los roles iniciales están registrados.
 - La evidencia identifica un aporte individual verificable.
+- Cada captura de la evidencia técnica muestra el reloj del sistema y el usuario/perfil visible, sin recortar.
+- Las fechas y horas de las capturas son coherentes con el historial de commits de su repositorio en GitHub.
+- Incluye un error o hallazgo técnico diagnosticado.
+- Incluye la reflexión técnica breve solicitada.
 
-## 5. Cierre evaluativo
-
-Tiempo: 20 min.
-
-Esta sección conecta el resultado de aprendizaje de la sesión con el producto que debe evidenciar cada estudiante.
-
-### 5.1 Resultados esperados
-
-Al finalizar la sesión, el estudiante debe demostrar que:
-
-- Explica qué es el SWEBOK y por qué el curso lo usa como marco conceptual.
-- Identifica las 18 áreas de conocimiento de SWEBOK v4.
-- Reconoce las áreas SWEBOK que fundamentan el Project Charter de la Unidad 1.
-- Delimita el problema de negocio del proyecto del semestre.
-- Conforma un equipo de trabajo con roles iniciales.
-
-### 5.2 Evidencia del producto de sesión
-
-Cada estudiante entrega un PDF individual siguiendo la plantilla de la sección 4.1.
-
-Nombre del archivo:
-
-```text
-S01_Equipo##_ApellidoNombre.pdf
-```
-
-La evidencia debe demostrar:
-
-- Problema de negocio delimitado.
-- Áreas SWEBOK priorizadas y justificadas.
-- Equipo de trabajo conformado.
-- Reflexión técnica breve.
-
-La revisión se realiza con los criterios mínimos de aceptación de la sección 4.2 y la rúbrica de la sección 5.4.
-
-### 5.3 Preguntas de defensa y reflexión
+### 4.5 Preguntas de defensa
 
 1. ¿Qué diferencia hay entre el SWEBOK y una metodología como Scrum u OpenUP?
 2. ¿Qué área SWEBOK consideras más crítica para tu proyecto y por qué?
 3. ¿Qué pasaría con tu proyecto si el equipo ignorara la Gestión de la Configuración del Software?
 4. ¿Cómo se conecta el área de Requerimientos con el Project Charter que construirás en las próximas sesiones?
 
-### 5.4 Rúbrica de evaluación
+### 4.6 Rúbrica de evaluación
 
-| Dimensión | Peso | 3 - Logro destacado | 2 - Logro | 1 - Proceso | 0 - Inicio | Puntuación obtenida |
+**Tabla 6. Rúbrica de evaluación**
+
+| Criterio | Peso (%) | A (20 pts) | B (15 pts) | C (10 pts) | D (5 pts) | Nivel obtenido |
 |---|---:|---|---|---|---|---:|
-| 1. Comprensión del SWEBOK | 2 | Explica con precisión qué es el SWEBOK y su propósito como cuerpo de conocimiento. | Explica correctamente qué es el SWEBOK. | Explicación parcial o imprecisa. | No explica qué es el SWEBOK. | |
-| 2. Áreas de conocimiento | 2 | Describe las 18 áreas con palabras propias y ejemplos claros. | Describe correctamente las 18 áreas. | Descripción incompleta o copiada. | No identifica las áreas de conocimiento. | |
-| 3. Problema de negocio | 2 | Problema delimitado, viable y bien justificado para 16 semanas de trabajo. | Problema delimitado y comprensible. | Problema impreciso o poco delimitado. | No delimita un problema de negocio. | |
-| 4. Priorización de áreas SWEBOK | 2 | Prioriza áreas con justificación sólida y conectada al proyecto. | Prioriza áreas de forma correcta. | Priorización débil o sin justificar. | No prioriza áreas para el proyecto. | |
-| 5. Aporte individual | 1 | Aporte verificable y bien documentado. | Aporte identificable. | Aporte mencionado de forma general. | Sin aporte individual. | |
-| 6. Orden y reflexión | 1 | Evidencia clara, ordenada y reflexión técnica precisa. | Evidencia comprensible. | Evidencia desordenada o superficial. | Sin evidencia suficiente. | |
+| 1. Comprensión del SWEBOK* | 20 | Explica con precisión qué es el SWEBOK y su propósito como cuerpo de conocimiento. | Explica correctamente qué es el SWEBOK. | Explicación parcial o imprecisa. | No explica qué es el SWEBOK. | |
+| 2. Áreas de conocimiento* | 20 | Describe las 18 áreas con palabras propias y ejemplos claros. | Describe correctamente las 18 áreas. | Descripción incompleta o copiada. | No identifica las áreas de conocimiento. | |
+| 3. Problema de negocio* | 20 | Problema delimitado, viable y bien justificado para 16 semanas de trabajo. | Problema delimitado y comprensible. | Problema impreciso o poco delimitado. | No delimita un problema de negocio. | |
+| 4. Priorización de áreas SWEBOK* | 20 | Prioriza áreas con justificación sólida y conectada al proyecto. | Prioriza áreas de forma correcta. | Priorización débil o sin justificar. | No prioriza áreas para el proyecto. | |
+| 5. Aporte individual* | 20 | Aporte verificable y bien documentado. | Aporte identificable. | Aporte mencionado de forma general. | Sin aporte individual. | |
 
-Puntuación acumulada = suma de (`Peso` * `Puntuación obtenida`) = ____.
+\* Agregado manual.
 
-Nota final = (`Puntuación acumulada` / 30) * 20 = ____.
+Nota final = suma de (`Peso` / 100 × `Puntos del nivel obtenido`) = ____ / 20.
 
 Para usar la rúbrica con IA, solicita:
 
 ```text
 Evalúa el PDF usando la rúbrica de la sesión.
-Para cada dimensión selecciona la puntuación obtenida usando la escala Inicio=0, Proceso=1, Logro=2, Logro destacado=3.
-Justifica brevemente cada puntuación.
-Calcula la puntuación acumulada con la fórmula: suma de (Peso * Puntuación obtenida).
-Calcula la nota final sobre 20 con la fórmula: (Puntuación acumulada / 30) * 20.
+Para cada criterio selecciona el nivel obtenido usando la escala A=20, B=15, C=10, D=5 puntos.
+Justifica brevemente cada nivel asignado.
+Verifica que cada captura muestre reloj del sistema y usuario/perfil visible, y que las fechas sean coherentes con el historial de commits de GitHub. Si falta esta evidencia o hay inconsistencias, indícalo explícitamente antes de calificar.
+Calcula la nota final con la fórmula: suma de (Peso/100 × Puntos del nivel obtenido), directamente sobre 20.
 Indica 2 fortalezas y 2 recomendaciones.
 ```
+
+## 5. Cierre
+
+Tiempo: 5 min.
+
+**Resumen breve:** el equipo reconoció las 18 áreas de conocimiento de SWEBOK v4, identificó el problema de negocio del proyecto del semestre y priorizó las áreas que fundamentarán el Project Charter.
+
+**Dinámica participativa:** cada equipo comparte en una frase el problema de negocio elegido y el área SWEBOK que considera más crítica para su proyecto.
+
+**Metacognición:** cada estudiante responde de forma breve: ¿qué fue lo más difícil de priorizar las áreas SWEBOK para tu proyecto?
+
+**Proyección:** en S2 se profundiza en Software Requirements, Software Architecture y Software Design para construir la matriz de requerimientos y las primeras decisiones de arquitectura del Project Charter; el mapa de áreas priorizadas hoy es el insumo directo de esa sesión.
+
+## Bibliografía
+
+- Washizaki, H. (Ed.). (2024). *Guide to the Software Engineering Body of Knowledge (SWEBOK), versión 4.0*. IEEE Computer Society.
+- Universidad Peruana Unión. (2026). *Sílabo del curso Ingeniería de Software I*.

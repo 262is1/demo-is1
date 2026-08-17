@@ -1,4 +1,4 @@
-site_name: Ingeniería de Software I
+site_name: Demo IS1
 site_url: https://262is1.github.io/demo-is1/
 repo_url: https://github.com/262is1/demo-is1
 repo_name: 262is1/demo-is1
@@ -13,14 +13,29 @@ nav:
       - Silabo 2026-2: silabo_is1_2026_2.md
   - 1. Cuerpo de Conocimiento de Ingeniería de Software:
       - S1 - Introducción al Curso, Presentación del Sílabo y SWEBOK: sesiones/S01_Introduccion_SWEBOK.md
+      - S2 - SWEBOK Requerimientos, Arquitectura y Diseño: sesiones/S02_Requerimientos_Arquitectura_Diseno.md
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.tracking
     - navigation.top
     - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      permalink: true
 
 plugins:
   - search
